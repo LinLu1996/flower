@@ -1,0 +1,379 @@
+.product-wraper{
+    position: relative;
+    z-index: 1500;
+    width: 1140px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 1px solid #d9d9d9;
+}
+.product-wraper .curr{
+    border: 1px solid red;
+}
+.product-l{
+    float: left;
+    width: 520px;
+    height: 557px;
+}
+.product-r{
+    float: right;
+    width: 560px;
+}
+.product-title{
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.product-dire{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.product-dire dl{
+    font-size: 12px;
+    margin: 12px 0;
+}
+.product-dire dl dt{
+    float: left;
+}
+.product-dire dl dd{
+    margin-left: 70px;
+}
+.product-dire dl .peisong{
+    height: 54px;
+    overflow: hidden;
+    position: relative;
+}
+.product-dire dl .peisong span{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 5px;
+    background: url(../img/top.png) no-repeat;
+    background-position: -129px -17px;
+}
+
+.product-dire dl .peisong-active{
+    position: relative;
+}
+.product-dire dl .peisong-active span{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 5px;
+    background: url(../img/top.png) no-repeat;
+    background-position: -129px -17px;
+    transform: rotate(180deg);
+}
+.product-price .price1{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 8px;
+    padding: 10px 16px 5px;
+    cursor: pointer;
+    border: 2px solid #d9d9d9;
+    cursor: pointer;
+    font-size: 12px;
+}
+.product-price .price1:hover{
+    border: 2px solid #ff6a00;
+}
+.product-price .active i{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+    background: url(../img/xuebitu-2.png) no-repeat;
+    background-position: -100px -318px;
+}
+.product-price .price1.active{
+    border: 2px solid #ff6a00;
+}
+.product-price .price1 .price-original{
+    text-decoration: line-through;
+}
+.product-price .price1 .sell-price{
+    font-size: 18px;
+    margin-left: 6px;
+    font-weight: bold;
+    color: #ff6a00;
+}
+.btn-buy{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.btn-buy a{
+    display: inline-block;
+    padding: 8px 25px;
+    font-size: 18px;
+    height: 43px;
+    line-height: 43px;
+    color: #ffffff;
+    background-color: #ff6a00;
+    text-align: center;
+}
+.show-img{
+    display: none;
+}
+.btn-buy a span{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-top: -3px;
+    margin-right: 10px;
+    background: url(../img/xuebitu-2.png) no-repeat;
+    background-position: -306px -284px;
+    vertical-align: middle;
+}
+.product-content{
+    width: 1200px;
+    height: 1012px;
+    margin: 0 auto;
+}
+.product-advice{
+    width: 1200px;
+    margin: 0 auto;
+}
+.tuijian{
+   margin-top: 0
+}
+.product-xiangqing{
+    width: 1200px;
+    margin: 0 auto;
+}
+.product-left{
+    width: 210px;
+    float: left;
+}
+.product-info,.product-tuijian{
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+.product-info .info-head,.product-tuijian .info-head{
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #737373;
+    background-color: #ffe8d9;
+
+}
+.info-body .info-jilu{
+    line-height: 40px;
+}
+.tuijian-body{
+    padding: 10px 9px;
+}
+.tuijian-item{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.tuijian-body .tuijian-item:last-child{
+    border: none;
+}
+.tuijian-item .img-box{
+    width: 180px;
+    height: 196px;
+    margin-bottom: 10px;
+}
+.tuijian-item .img-box img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+.tuijian-body .title{
+    font-size: 12px;
+    overflow: hidden;
+    height: 36px;
+    margin-bottom: 8px;
+    text-align: justify;
+}
+.tuijian-body .price{
+    font-size: 12px;
+    margin-bottom: 8px;
+    text-align: center;
+    color: #ff6a00;
+}
+.product-right{
+    width: 970px;
+    float: right;
+}
+.product-right .product-tabs{
+    width: 970px;
+    height: 38px;
+    border-bottom: 1px solid #707070;
+    background-color: #fff;
+}
+.product-right .product-tabs li{
+    text-align: center;
+    height: 38px;
+    line-height: 38px;
+    float: left;
+    margin-right: -1px;
+    margin-bottom: -1px;
+    border: 1px solid #dbdbdb;
+    border-bottom: none;
+}
+.product-right .product-tabs li a{
+    font-size: 14px;
+    padding: 8px 25px;
+}
+.product-right .product-tabs .active{
+    border-top: 1px solid #707070;
+    background: white;
+}
+.product-details{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 25px;
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+    border-top: 0;
+}
+.product-details p{
+    margin-bottom: 10px;
+}
+.product-pingjia{
+    font-size: 12px;
+    margin-bottom: 25px;
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+    border-top: none;
+}
+.product-pingjia .pingjia-top{
+    height: 34px;
+    text-align: center;
+}
+.product-pingjia .pingjia-top span{
+    color: red;
+}
+.pingjia-con .pingjia-item{
+    position: relative;
+    height: 135px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 12px;
+    margin-bottom: 30px;
+} 
+.pingjia-con .pingjia-item img{
+    display: block;
+    height: 63px;
+    width: 58px;
+    margin-bottom: 6px;
+    border: 1px solid #d9d9d9;
+    vertical-align: middle;
+}
+.pingjia-con .pingjia-item-l{
+    float: left;
+    color: #999999;
+}
+.pingjia-con .pingjia-item-r{
+    margin-left: 150px;
+}
+.pingjia-con .pingjia-hd{
+    width: 778px;
+    height: 26px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.pingjia-con .pingjia-fen i{
+    color: #fc6600;
+}
+.product-pingjia .pingjia-btm{
+    text-align: center;
+}
+.pingjia-btm span,.pingjia-btm a{
+    color: red;
+}
+.product-baozhang{
+    font-size: 12px;
+    margin-bottom: 25px;
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+}
+.product-baozhang .baozhang-indicator{
+    display: flex;
+    margin: 10px 0 0 0;
+    height: 87px;
+    padding: 0;
+    text-align: center;
+}
+.product-baozhang .baozhang-indicator li{
+    flex: 1;
+    text-align: center;
+}
+.product-baozhang .baozhang-indicator li a{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.product-baozhang .baozhang-indicator span{
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 10px;
+    background: url(../img/product-baozhang1.png) no-repeat;
+}
+.product-baozhang .baozhang-indicator .pinpai{
+    background-position: 0 0;
+}
+.product-baozhang .baozhang-indicator .pinpai:hover{
+    background-position: 0 -60px;
+}
+.product-baozhang .baozhang-indicator .xiaoliang{
+    background-position: -60px 0;
+}
+.product-baozhang .baozhang-indicator .xiaoliang:hover{
+    background-position: -60px -60px;
+}
+.product-baozhang .baozhang-indicator .xinlai{
+    background-position: -120px 0;
+}
+.product-baozhang .baozhang-indicator .xinlai:hover{
+    background-position: -120px -60px;
+}
+.product-baozhang .baozhang-indicator .shipai{
+    background-position: -180px 0;
+}
+.product-baozhang .baozhang-indicator .shipai:hover{
+    background-position: -180px -60px;
+}
+.product-baozhang .baozhang-indicator .peisong{
+    background-position: -240px 0;
+}
+.product-baozhang .baozhang-indicator .peisong:hover{
+    background-position: -240px -60px;
+}
+.product-baozhang .baozhang-indicator .peitui{
+    background-position: -300px 0;
+}
+.product-baozhang .baozhang-indicator .peitui:hover{
+    background-position: -300px -60px;
+}
+.baozhang-content{
+    width: 910px;
+    height: 350px;
+    margin: 30px auto 20px;
+    position: relative;
+}
+.baozhang-content .baozhang-list{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: opacity 0.15s linear;
+}
+.baozhang-content .baozhang-list.in{
+    opacity: 1;
+}
+.baozhang-content .baozhang-list:target {
+   opacity: 1;
+}

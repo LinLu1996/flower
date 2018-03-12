@@ -1,0 +1,72 @@
+.login-wraper{
+    height: 488px;
+    background: url(../img/login_bg.jpg) 50% 0 no-repeat;
+}
+.container{
+    width: 990px;
+    height: 448px;
+    max-width: none !important;
+    margin: 0 auto;
+    position: relative;
+}
+.container .login-box{
+    position: absolute;
+    width: 380px;
+    height: 368px;
+    top: 40px;
+    left: 58%;
+    padding: 20px;
+    background-color: #fff;
+}
+.login-box .login-tabs{
+    margin-bottom: 40px;
+    height: 38px;
+    padding: 0;
+    border-bottom: 2px solid #d9d9d9;
+}
+.login-box .login-tabs li{
+    float: left;
+}
+.login-box .login-tabs li a{
+    font-size: 16px;
+    display: block;
+    margin-bottom: -2px;
+    padding: 10px 35px;
+    border-bottom: 2px solid #d9d9d9;
+}
+.login-box .login-tabs .active a{
+    color: #ff6a00;
+    border-bottom-color: #ff6a00;
+}
+.login-box .tab-content{
+    font-size: 12px;
+    margin: 0 38px;
+}
+.login-box .form-group{
+    margin-bottom: 10px;
+}
+.login-box .form-group input{
+    width: 284px;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #d2d2d2;
+}
+.login-box .form-group span{
+    display: none;
+    color: red;
+}
+.login-box .tab-content button{
+    display: block;
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    margin-top: 20px;
+    border-radius: 4px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #ff6a00;
+    font-size: 16px;
+}
+.login-box #login{
+    display: none;
+}
